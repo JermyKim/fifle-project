@@ -4,6 +4,8 @@ jsp기반 홈페이지 제작 - Fifle
 2.서버: Apache Tomcat 7.0<br>
 3.데이터베이스: MySQL 5<br>
 4.구성<br> 
-WEBContent- html코드<br> 
-src- java코드<br>
-fifle.war - jsp배포파일
+fifle<br>
+├WEBContent html코드<br> 
+└src java코드<br>
+fifle.war  jsp배포파일
+README.md
