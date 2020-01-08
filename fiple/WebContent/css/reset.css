@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0; box-sizing:border-box; outline:none;}
+
+/*////// 명조체 /////*/
+@font-face {
+	font-family:'ALL';
+	src:url(../fonts/aleo-light-webfont.eot);
+	src:local(' '), url(../fonts/aleo-light-webfont.woff);
+}
+@font-face {
+	font-family:'ALR';
+	src:url(../fonts/aleo-regular-webfont.eot);
+	src:local(' '), url(../fonts/aleo-regular-webfont.woff);
+}
+@font-face {
+	font-family:'ALB';
+	src:url(../fonts/aleo-bold-webfont.eot);
+	src:local(' '), url(../fonts/aleo-bold-webfont.woff);
+}
+@font-face {
+	font-family:'SHL';
+	src:url(../fonts/SeoulHangangL.eot);
+	src:local(' '), url(../fonts/SeoulHangangL.woff);
+}
+@font-face {
+	font-family:'SHM';
+	src:url(../fonts/SeoulHangangM.eot);
+	src:local(' '), url(../fonts/SeoulHangangM.woff);
+}
+
+/*////// 고딕체(본문) /////*/
+@font-face {
+	font-family:'SPL';
+	src:url(../fonts/Spoqa%20Han%20Sans%20Light.eot);
+	src:local(' '), url(../fonts/Spoqa%20Han%20Sans%20Light.woff);
+}
+@font-face {
+	font-family:'SPR';
+	src:url(../fonts/Spoqa%20Han%20Sans%20Regular.eot);
+	src:local(' '), url(../fonts/Spoqa%20Han%20Sans%20Regular.woff);
+}
+@font-face {
+	font-family:'SPB';
+	src:url(../fonts/Spoqa%20Han%20Sans%20Bold.eot);
+	src:local(' '), url(../fonts/Spoqa%20Han%20Sans%20Bold.woff);
+}
+
+/*////// 고딕체(타이틀) /////*/
+@font-face {
+	font-family: 'hsL';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2//MOF_L.woff') format('woff');
+	font-weight: normal; font-style: normal;
+}
+@font-face {
+	font-family: 'hsM';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/MOF_M.woff') format('woff');
+	font-weight: normal; font-style: normal;
+}
+@font-face {
+	font-family: hsB';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/MOF_B.woff') format('woff');
+	font-weight: normal; font-style: normal;
+}
+
+ul { list-style:none; }
+a, a:hover { display:block; text-decoration:none; outline:none; color:#333; }
+.clear {clear:both; }
+body { font-family:'SPR'; font-size:16px; color:#333; background:#FFF; }
+section { transition:all 0.4s ease-in; }
+h1, h2, h3, h4, h5, h6 {font-family:'hsM', sans-serif; }
+i { font-family:'hsM';  }
